@@ -1,3 +1,5 @@
 .ipynb_checkpoints/data_exploration-checkpoint.ipynb
 .Rhistory
 .vscode/settings.json
+lib/__pycache__
+
