@@ -47,8 +47,8 @@ def feature_reduction(df):
     O3_mean = df['O384.mean']
     O3_std = df['O3168.std']
     df = df.drop(columns=df.columns[df.columns.str.startswith('O3')])
-    df['O3.mean'] = O3_mean
-    df['O3.std'] = O3_std
+    df['O384.mean'] = O3_mean
+    df['O3168.std'] = O3_std
 
     # reduce RHIRGA features
     RHIRGA_mean = df['RHIRGA42.mean']
